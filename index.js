@@ -293,7 +293,7 @@ function init() {
         "basename": "grandcanyon",
         "tilejson": "2.0.0",
         "sheme": "xyz",
-        "tiles": ["http://tileserver.maptiler.com/grandcanyon/{z}/{x}/{y}.png"]
+        "tiles": ["https://tileserver.maptiler.com/grandcanyon/{z}/{x}/{y}.png"]
     };
     var grandcanyon = WE.tileLayerJSON(json);
     grandcanyon.addTo(map);
